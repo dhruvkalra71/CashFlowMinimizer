@@ -43,14 +43,6 @@ The **Cash Flow Minimizer** is a smart ledger that simplifies group settlements 
 
 ---
 
-## 🏗️ System Architecture
-
-### 📌 Class Diagram
-
-![Class Diagram](https://i.imgur.com/2cNj9VV.png) <!-- Replace with actual image from PDF -->
-
----
-
 ### ⚙️ Data Structures & Algorithms
 
 * **Participant Class**: Stores user info and allowed payment modes.
@@ -97,7 +89,7 @@ struct Transaction {
 
 ## 📈 Screenshots & Outputs
 
-### 💡 Interactive Terminal Menu
+### 💡 Terminal Menu
 
 ![Menu](images/menu.png)
 
@@ -144,7 +136,7 @@ struct Transaction {
 ### ▶️ Compile and Run
 
 ```bash
-g++ cash-flow-minimizer-main.cpp -o CashFlowMinimizer
+g++ main.cpp -o CashFlowMinimizer
 ./CashFlowMinimizer
 ```
 
@@ -166,5 +158,3 @@ g++ cash-flow-minimizer-main.cpp -o CashFlowMinimizer
 * 🔐 Add authentication and role-based access
 * ☁️ Cloud backup and multi-device sync
 * 📱 Mobile App Port (Flutter/React Native)
-  
----
