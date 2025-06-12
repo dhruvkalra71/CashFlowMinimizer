@@ -4,7 +4,7 @@
 
 Introducing the **Lean Ledger** – a smart, algorithm-powered cash flow minimizer designed to reduce clutter in financial settlements by intelligently minimizing the number of transactions required.
 
-![Lean Ledger Banner](https://i.imgur.com/SxHqhRv.png) <!-- Replace with actual image path -->
+![Lean Ledger Banner](images/banner.png) <!-- Replace with actual image path -->
 
 ---
 
