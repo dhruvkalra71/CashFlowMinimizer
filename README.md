@@ -99,13 +99,13 @@ struct Transaction {
 
 ### 💡 Interactive Terminal Menu
 
-![Menu](sandbox:/mnt/data/pdf_images/image_1_1.png)
+![Menu](images/menu.png)
 
 ---
 
 ### 🧾 Adding a Participant
 
-![Add Participant](sandbox:/mnt/data/pdf_images/image_8_1.png)
+![Add Participant](images/adding_participants.png)
 
 ---
 
