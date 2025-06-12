@@ -158,3 +158,5 @@ g++ main.cpp -o CashFlowMinimizer
 * 🔐 Add authentication and role-based access
 * ☁️ Cloud backup and multi-device sync
 * 📱 Mobile App Port (Flutter/React Native)
+
+---
