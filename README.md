@@ -31,10 +31,29 @@ The **Cash Flow Minimizer** is a smart ledger that simplifies group settlements 
 
 ---
 
+## 🌟 Unique Feature: The “Super Participant” 🔐
+
+> *Think of it as the backbone of all transactions.*
+
+### 👤 What is a Super Participant?
+
+The **first participant added** to the system is designated as the **“Super Participant.”** This person **must define all allowed payment modes** in the system.
+
+### ✅ Why It's Game-Changing:
+
+* **Standardizes payment methods** across the network (e.g., UPI, Credit Card, Cash)
+* Prevents incompatible transactions by **limiting users to valid modes**
+* Enables **smart pairing of payers/payees based on common payment modes**
+
+> ✅ Result: Every transaction that is suggested by the minimization algorithm is also **valid and feasible** in the real world.
+
+---
+
 ## 💡 Key Features
 
 * 👤 Add/Delete/Edit/View Participants
 * 💰 Record/Edit/View/Delete transactions
+* 💳 Super Participant Mode Lock
 * 🧾 Display transaction histories (sorted/unsorted)
 * 🔃 Minimize total transactions to settle all debts
 * 💳 Manage multiple payment modes per user
@@ -114,7 +133,7 @@ struct Transaction {
 
 ---
 
-### 📉 Sorted Transactions
+### 📉 Sorted Transactions (Descending)
 
 ![Sorted Transactions](images/view_transactions_sorted.png)
 
