@@ -122,7 +122,7 @@ struct Transaction {
 
 ### ⚖️ Optimized Cash Flow Output
 
-![Minimized Transactions](sandbox:/mnt/data/pdf_images/cash_flow_minimization.png)
+![Minimized Transactions](images/cash_flow_minimization.png)
 
 ---
 
