@@ -103,25 +103,26 @@ struct Transaction {
 
 ### 💸 Recording Transactions
 
-![Record Transactions](sandbox:/mnt/data/pdf_images/image_9_1.png)
+![Record Transactions](images/transaction1.png)
+![Record Transactions](images/transaction2.png)
 
 ---
 
 ### 📄 Transaction History
 
-![Transactions](sandbox:/mnt/data/pdf_images/image_9_2.png)
+![Transactions](images/view_transactions.png)
 
 ---
 
 ### 📉 Sorted Transactions
 
-![Sorted Transactions](sandbox:/mnt/data/pdf_images/image_9_3.png)
+![Sorted Transactions](images/view_transactions_sorted.png)
 
 ---
 
 ### ⚖️ Optimized Cash Flow Output
 
-![Minimized Transactions](sandbox:/mnt/data/pdf_images/image_10_5.png)
+![Minimized Transactions](sandbox:/mnt/data/pdf_images/cash_flow_minimization.png)
 
 ---
 
