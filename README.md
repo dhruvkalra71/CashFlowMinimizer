@@ -1,8 +1,8 @@
-# 💸 Cash Flow Minimizer (Lean Ledger)
+# 💸 Lean Ledger - Cash Flow Minimizer
 
 > **"What if splitting group expenses or settling dues was no longer a headache?"**
 
-Introducing the **Cash Flow Minimizer** – a smart, algorithm-powered ledger designed to reduce clutter in financial settlements by intelligently minimizing the number of transactions required.
+Introducing the **Lean Ledger** – a smart, algorithm-powered cash flow minimizer designed to reduce clutter in financial settlements by intelligently minimizing the number of transactions required.
 
 ![Lean Ledger Banner](https://i.imgur.com/SxHqhRv.png) <!-- Replace with actual image path -->
 
@@ -22,7 +22,7 @@ In group transactions (trips, clubs, societies, or shared expenses), it's common
 
 ## 💡 Solution
 
-The **Cash Flow Minimizer** simplifies group settlements by:
+The **Cash Flow Minimizer** is a smart ledger that simplifies group settlements by:
 
 * 🔁 **Reducing total transactions** needed to settle all debts.
 * 📊 **Tracking all participants, payment modes, and transaction histories**.
@@ -31,7 +31,16 @@ The **Cash Flow Minimizer** simplifies group settlements by:
 
 ---
 
-## 🎯 Features
+## 💡 Key Features
+
+| Feature                    | Description                                                    |
+| -------------------------- | -------------------------------------------------------------- |
+| 🔄 Cash Flow Minimization  | Reduces transactions using net-balancing logic                 |
+| 👥 Participant Management  | Add, delete, view, and edit members and their payment methods  |
+| 📄 Transaction Handling    | Record, edit, delete, and sort transaction logs                |
+| 📈 Sorted Display          | Alphabetical sorting of users, descending sort of transactions |
+| 💳 Custom Payment Modes    | Allows multiple payment types per participant                  |
+| 💾 Persistent File Storage | Binary file handling for efficient record storage              |
 
 * 👤 Add/Delete/Edit participants
 * 💰 Record/Edit/Delete transactions
@@ -49,12 +58,27 @@ The **Cash Flow Minimizer** simplifies group settlements by:
 
 ![Class Diagram](https://i.imgur.com/2cNj9VV.png) <!-- Replace with actual image from PDF -->
 
-### 💻 Data Structures Used
+### ⚙️ Data Structures & Algorithms
 
-* **`class Person`**: stores user info and allowed payment modes.
-* **`class Transaction`**: stores individual debt relations.
-* **Graph Matrix**: models debts between participants for optimization.
-* **Set & Map**: for tracking payment types and indexing users.
+* **Participant Class**: Stores user info and allowed payment modes.
+* **Transaction Class**: Stores individual debt relations.
+* **Graph-based Adjacency Matrix**: Models debts between participants for optimization.
+* **Set & Map**: For tracking payment types and indexing users.
+* **Greedy Net Amount Minimization Algorithm**
+
+```cpp
+struct Participant {
+    string name;
+    string username;
+    vector<string> paymentModes;
+};
+
+struct Transaction {
+    string payee;
+    string debtor;
+    float amountPaid;
+};
+```
 
 ---
 
@@ -116,10 +140,11 @@ g++ cash-flow-minimizer-main.cpp -o CashFlowMinimizer
 
 ## 📍 Future Scope
 
-* 🖥️ Integrate GUI using Qt/PyQt or web-based front-end
+* 🌐 Web/GUI front-end (Qt or React)
 * 🔌 API + Payment Gateway Support
-* 🧪 Add authentication and role-based access
+* 🔐 Add authentication and role-based access
 * ☁️ Cloud backup and multi-device sync
+* 📱 Mobile App Port (Flutter/React Native)
 
 
 
@@ -130,70 +155,11 @@ g++ cash-flow-minimizer-main.cpp -o CashFlowMinimizer
 
 ---
 
-## 🚀 Project Pitch
-
-**Imagine a dinner bill split among 10 friends.** Now multiply that complexity for clubs, societies, or organizations with dozens of members.
-
-
-**We built a solution.**
-
-✅ **Cash Flow Minimizer** is a smart ledger that:
-
-* Minimizes the total number of transactions
-* Keeps track of debts, payment modes & settlements
-* Uses **graph theory + file handling + C++ magic**
-
-> 🎯 Built for coders, treasurers, and finance geeks who love optimization.
-
----
-
-## 🧠 Problem We Solved
-
-When multiple participants owe money to each other, manually settling debts results in inefficiency and confusion. Our software reduces the number of actual money transfers using the **Net Amount Graph Algorithm**.
-
----
-
-## 💡 Key Features
-
-| Feature                    | Description                                                    |
-| -------------------------- | -------------------------------------------------------------- |
-| 🔄 Cash Flow Minimization  | Reduces transactions using net-balancing logic                 |
-| 👥 Participant Management  | Add, delete, view, and edit members and their payment methods  |
-| 📄 Transaction Handling    | Record, edit, delete, and sort transaction logs                |
-| 📈 Sorted Display          | Alphabetical sorting of users, descending sort of transactions |
-| 💳 Custom Payment Modes    | Allows multiple payment types per participant                  |
-| 💾 Persistent File Storage | Binary file handling for efficient record storage              |
-
----
-
 ## 🛠️ System Overview
 
 ### 📊 UML Class Diagram
 
 ![Class Diagram](sandbox:/mnt/data/pdf_images/image_6_1.png)
-
----
-
-### ⚙️ Data Structures & Algorithms
-
-* **Participant Class**
-* **Transaction Class**
-* **Graph-based Adjacency Matrix** for debts
-* **Greedy Net Amount Minimization Algorithm**
-
-```cpp
-struct Participant {
-    string name;
-    string username;
-    vector<string> paymentModes;
-};
-
-struct Transaction {
-    string payee;
-    string debtor;
-    float amountPaid;
-};
-```
 
 ---
 
