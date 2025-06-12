@@ -1,7 +1,8 @@
 # 💸 Cash Flow Minimizer (Lean Ledger)
 
 > **"What if splitting group expenses or settling dues was no longer a headache?"**
-> Introducing the **Cash Flow Minimizer** – a smart, algorithm-powered ledger designed to reduce clutter in financial settlements by intelligently minimizing the number of transactions required.
+
+Introducing the **Cash Flow Minimizer** – a smart, algorithm-powered ledger designed to reduce clutter in financial settlements by intelligently minimizing the number of transactions required.
 
 ![Lean Ledger Banner](https://i.imgur.com/SxHqhRv.png) <!-- Replace with actual image path -->
 
@@ -11,7 +12,11 @@
 
 In group transactions (trips, clubs, societies, or shared expenses), it's common to track who owes whom. But when it comes time to settle, multiple overlapping debts lead to inefficient payment chains.
 
-Manual management is error-prone, tedious, and overwhelming.
+👎 *Manually managing debts leads to:*
+
+* Multiple redundant transactions
+* Confusing settlements
+* Wasted time and effort
 
 ---
 
@@ -129,11 +134,6 @@ g++ cash-flow-minimizer-main.cpp -o CashFlowMinimizer
 
 **Imagine a dinner bill split among 10 friends.** Now multiply that complexity for clubs, societies, or organizations with dozens of members.
 
-👎 *Manually managing debts leads to:*
-
-* Multiple redundant transactions
-* Confusing settlements
-* Wasted time and effort
 
 **We built a solution.**
 
@@ -234,10 +234,4 @@ struct Transaction {
 ![Minimized Transactions](sandbox:/mnt/data/pdf_images/image_10_5.png)
 
 ---
-
-
-
-
----
-
 
